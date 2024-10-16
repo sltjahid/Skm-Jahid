@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skm Jahid</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .portfolio-item {
+            margin-bottom: 20px;
+        }
+        .portfolio-item img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Skm Jahid</h1>
+    <nav>
+        <a href="#about">Graphic Desinger & Video Editor</a>
+        <a href="#portfolio">পোর্টফলিও</a>
+        <a href="#contact">যোগাযোগ</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="about">
+        <h2>আমার সম্পর্কে</h2>
+        <p>এখানে আপনার সম্পর্কে কিছু তথ্য লিখুন। আপনি কী করেন, আপনার দক্ষতা, এবং আপনার অভিজ্ঞতা সম্পর্কে আলোচনা করুন।</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>পোর্টফলিও</h2>
+        <div class="portfolio-item">
+            <h3>প্রকল্পের নাম ১</h3>
+            <img src="path/to/your/image1.jpg" alt="প্রকল্পের নাম ১">
+            <p>এই প্রকল্পের বিবরণ লিখুন।</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>প্রকল্পের নাম ২</h3>
+            <img src="path/to/your/image2.jpg" alt="প্রকল্পের নাম ২">
+            <p>এই প্রকল্পের বিবরণ লিখুন।</p>
+        </div>
+        <!-- আরও প্রকল্প যোগ করুন -->
+    </section>
+
+    <section id="contact">
+        <h2>যোগাযোগ</h2>
+        <p>আপনার ইমেইল: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        <p>সোশ্যাল মিডিয়া লিঙ্কগুলি এখানে যুক্ত করুন (যেমন ফেসবুক, ইনস্টাগ্রাম, লিঙ্কডইন ইত্যাদি)।</p>
+    </section>
+</div>
+
+<footer>
+    <p style="text-align:center; padding:20px; background:#333; color:#fff;">&copy; 2023 আপনার নাম. সর্বস্বত্ব সংরক্ষিত।</p>
+</footer>
+
+</body>
+</html>
